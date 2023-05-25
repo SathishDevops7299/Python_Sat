@@ -358,7 +358,7 @@ window = tk.Tk()
 window.geometry("1366x768")
 window.resizable(True,False)
 window.title("Attendance System")
-window.configure(background='#add8e6')
+window.configure(background='#FA8128')
 
 frame1 = tk.Frame(window, bg="#ccccff")
 frame1.place(relx=0.11, rely=0.17, relwidth=0.39, relheight=0.80)
@@ -366,7 +366,7 @@ frame1.place(relx=0.11, rely=0.17, relwidth=0.39, relheight=0.80)
 frame2 = tk.Frame(window, bg="#ccccff")
 frame2.place(relx=0.51, rely=0.17, relwidth=0.38, relheight=0.80)
 
-message3 = tk.Label(window, text="Face Recognition Based on Attendance System" ,fg="White",bg="#add8e6" ,width=55 ,height=1,font=('comic', 29, ' bold '))
+message3 = tk.Label(window, text="ARI Face Attendance System" ,fg="Black",bg="#FA8128" ,width=55 ,height=1,font=('comic', 29, ' bold '))
 message3.place(x=10, y=10)
 
 frame3 = tk.Frame(window, bg="#3a3b3c")
@@ -375,10 +375,10 @@ frame3.place(relx=0.52, rely=0.09, relwidth=0.09, relheight=0.07)
 frame4 = tk.Frame(window, bg="#c4c6ce")
 frame4.place(relx=0.36, rely=0.09, relwidth=0.16, relheight=0.07)
 
-datef = tk.Label(frame4, text = day+"-"+mont[month]+"-"+year+"  |  ", fg="#000000",bg="#add8e6" ,width=55 ,height=1,font=('comic', 18, ' bold '))
+datef = tk.Label(frame4, text = day+"-"+mont[month]+"-"+year+"  |  ", fg="#000000",bg="#FA8128" ,width=55 ,height=1,font=('comic', 18, ' bold '))
 datef.pack(fill='both',expand=1)
 
-clock = tk.Label(frame3,fg="#000000",bg="#add8e6" ,width=55 ,height=1,font=('comic', 18, ' bold '))
+clock = tk.Label(frame3,fg="#000000",bg="#FA8128" ,width=55 ,height=1,font=('comic', 18, ' bold '))
 clock.pack(fill='both',expand=1)
 tick()
 
