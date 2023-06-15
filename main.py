@@ -1,6 +1,7 @@
 ############################################# IMPORTING ################################################
 import tkinter as tk
 from tkinter import ttk
+import webbrowser
 from tkinter import messagebox as mess
 import tkinter.simpledialog as tsd
 import cv2,os
@@ -366,7 +367,7 @@ frame1.place(relx=0.11, rely=0.17, relwidth=0.39, relheight=0.80)
 frame2 = tk.Frame(window, bg="#ccccff")
 frame2.place(relx=0.51, rely=0.17, relwidth=0.38, relheight=0.80)
 
-message3 = tk.Label(window, text="ARI Face Attendance System" ,fg="Black",bg="#FA8128" ,width=55 ,height=1,font=('comic', 29, ' bold '))
+message3 = tk.Label(window, text="K K K Puka Robot System" ,fg="Black",bg="#FA8128" ,width=55 ,height=1,font=('comic', 29, ' bold '))
 message3.place(x=10, y=10)
 
 frame3 = tk.Frame(window, bg="#3a3b3c")
@@ -382,10 +383,10 @@ clock = tk.Label(frame3,fg="#000000",bg="#FA8128" ,width=55 ,height=1,font=('com
 clock.pack(fill='both',expand=1)
 tick()
 
-head2 = tk.Label(frame2, text="                       For New Registrations                       ", fg="black",bg="#9e7bff" ,font=('comic', 17, ' bold ') )
+head2 = tk.Label(frame2, text="                       Chakabuka New Registrations                       ", fg="black",bg="#9e7bff" ,font=('comic', 17, ' bold ') )
 head2.grid(row=0,column=0)
 
-head1 = tk.Label(frame1, text="                       For Already Registered                       ", fg="black",bg="#9e7bff" ,font=('comic', 17, ' bold ') )
+head1 = tk.Label(frame1, text="                       Chakabuka Already Registered                       ", fg="black",bg="#9e7bff" ,font=('comic', 17, ' bold ') )
 head1.place(x=0,y=0)
 
 lbl = tk.Label(frame2, text="Enter ID",width=20  ,height=1  ,fg="black"  ,bg="#ccccff" ,font=('comic', 17, ' bold ') )
