@@ -20,7 +20,7 @@ variables:
   environmentName: 'AngularAppDevOps'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: Login-System-main
+  projectRoot: Login-System-main/LoginSystem.py
 
   # Python version: 3.9
   pythonVersion: '3.9'
