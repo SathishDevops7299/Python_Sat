@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install: 
+    runtime-versions:
+      python: 3
+  build:
+    commands:
+      - sudo apt-get update 
+      - sudo apt install python3
+      - python3 --version
+      - sudo apt install python3-pip
+      - pip3 --version
+      - pip install tk-tools
+      - pip install opencv-contrib-python
+      - pip install datetime
+      - pip install pytest-shutil
+      - pip install python-csv
+      - pip install numpy
+      - pip install pillow 
+      - pip install pandas
+      - pip install times  
+artifacts:
+  type: zip
+  paths:
+    - '*'
